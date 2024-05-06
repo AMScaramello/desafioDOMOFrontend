@@ -1,0 +1,36 @@
+.ddcContainer {
+	color: white;
+	background-color: #3871ff;
+	padding: 5rem 11rem 5rem 11rem;
+}
+
+.ddcTitle {
+	font-size: small;
+	font-weight: bold;
+}
+
+.ddcName {
+	font-weight: bold;
+}
+
+.ddcSubname {
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.ddcMailAndTel {
+	text-decoration: none;
+	color: white;
+	font-size: medium;
+	font-weight: 600;
+}
+
+.ddcIcons {
+	height: 1.5rem;
+	width: auto;
+}
+
+.ddcIcons2 {
+	height: 3rem;
+	width: auto;
+}

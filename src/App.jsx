@@ -1,5 +1,6 @@
 import { About } from "./components/About/About"
 import { CaseStudies } from "./components/CaseStudies/CaseStudies"
+import { DatosDeContacto } from "./components/DatosDeContacto/DatosDeContacto"
 import { Home } from "./components/Home/Home"
 import { NavBar } from "./components/NavBar/NavBar"
 import { Services } from "./components/Services/Services"
@@ -14,6 +15,7 @@ function App() {
 			<Technology />
 			<CaseStudies />
 			<About />
+			<DatosDeContacto />
 		</>
 	)
 }
