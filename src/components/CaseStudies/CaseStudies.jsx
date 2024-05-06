@@ -12,7 +12,7 @@ export const CaseStudies = () => {
 	const icons = [TnwIcon, GoogleIcon, NikeIcon, AirbnbIcon, ItNewsIcon]
 
 	return (
-		<div className="caseStudiesContainer">
+		<div className="caseStudiesContainer" id="CaseStudies">
 			<div className="text-center pb-5">
 				<h5 className="caseStudiesTitle mb-3">CLIENTS WE WORKED WITH</h5>
 				<div className="col pt-5">

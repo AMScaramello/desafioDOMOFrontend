@@ -21,7 +21,7 @@ export const About = () => {
 	]
 
 	return (
-		<div className="row aboutContainer">
+		<div className="row mb-2 aboutContainer" id="About">
 			<div className="col-6">
 				<a className="navbar-brand fw-bold aboutTitle" href="#">
 					coomplet labs
@@ -61,7 +61,11 @@ export const About = () => {
 							<h6 className="aboutCategory">{list.category}</h6>
 							<nav className="nav flex-column"></nav>
 							{list.sections.map((section) => (
-								<a className="nav-link mt-2 aboutSection" href="#" key="">
+								<a
+									className="nav-link mt-2 aboutSection"
+									href={`#${section}`}
+									key=""
+								>
 									{section}
 								</a>
 							))}

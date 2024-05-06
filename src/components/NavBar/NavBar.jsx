@@ -11,27 +11,31 @@ export const NavBar = () => {
 			</div>
 			<ul className="navbar-nav col-7 justify-content-end">
 				<li className="nav-item mx-2">
-					<a className="nav-link navBarSection " aria-current="page" href="#">
+					<a
+						className="nav-link navBarSection "
+						aria-current="page"
+						href="#Home"
+					>
 						Home
 					</a>
 				</li>
 				<li className="nav-item mx-2">
-					<a className="nav-link navBarSection" href="#">
+					<a className="nav-link navBarSection" href="#Services">
 						Services
 					</a>
 				</li>
 				<li className="nav-item mx-2">
-					<a className="nav-link navBarSection" href="#">
+					<a className="nav-link navBarSection" href="#Technology">
 						Technology
 					</a>
 				</li>
 				<li className="nav-item mx-2">
-					<a className="nav-link navBarSection" href="#">
+					<a className="nav-link navBarSection" href="#CaseStudies">
 						Case studies
 					</a>
 				</li>
 				<li className="nav-item mx-2">
-					<a className="nav-link navBarSection" href="#">
+					<a className="nav-link navBarSection" href="#About">
 						About
 					</a>
 				</li>

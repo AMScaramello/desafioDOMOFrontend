@@ -5,7 +5,7 @@ import "./Services.css"
 
 export const Services = () => {
 	return (
-		<div className="py-5 servicesContainer">
+		<div className="py-5 servicesContainer" id="Services">
 			<div className="text-center pb-4">
 				<h3 className="servicesTitle pb-2">Our Services</h3>
 				<p className="servicesPar">
@@ -23,7 +23,7 @@ export const Services = () => {
 								<img src={businessIcon} alt="..." className="sevicesImg" />
 							</div>
 							<div className="card-body">
-								<h5 className="card-title pb-3 servicesCardTitle">
+								<h5 className="card-title pb-2 servicesCardTitle">
 									Business & Product Concept
 								</h5>
 								<p className="card-text servicesCardPar">
@@ -47,7 +47,7 @@ export const Services = () => {
 								<img src={webIcon} alt="..." className="sevicesImg" />
 							</div>
 							<div className="card-body">
-								<h5 className="card-title pb-3 servicesCardTitle">
+								<h5 className="card-title pb-2 servicesCardTitle">
 									Web & Mobile Development
 								</h5>
 								<p className="card-text servicesCardPar">
@@ -72,7 +72,7 @@ export const Services = () => {
 								<img src={UXIxon} alt="..." className="sevicesImg" />
 							</div>
 							<div className="card-body">
-								<h5 className="card-title pb-3 servicesCardTitle">
+								<h5 className="card-title pb-2 servicesCardTitle">
 									UX & UI Design
 								</h5>
 								<p className="card-text servicesCardPar">

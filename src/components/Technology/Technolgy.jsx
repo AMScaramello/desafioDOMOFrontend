@@ -10,7 +10,7 @@ export const Technology = () => {
 	const icons = [HTMLIcon, CSSIcon, SassIcon, NodeIcon, AngularIcon, PythonIcon]
 
 	return (
-		<div className="py-5 technologyContainer">
+		<div className="py-5 technologyContainer" id="Technology">
 			<div className="row align-items-center">
 				<div className="col-9 technologyContainerText">
 					<h3 className="technologyTitle pb-3">

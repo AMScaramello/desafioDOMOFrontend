@@ -3,7 +3,7 @@ import "./Home.css"
 
 export const Home = () => {
 	return (
-		<div className="row align-items-center homeContainer">
+		<div className="row align-items-center homeContainer" id="Home">
 			<div className="col-6 align-self-center">
 				<h1 className="fw-bold mb-3 homeTitle">
 					We build beautiful and <br /> reliable web solutions
