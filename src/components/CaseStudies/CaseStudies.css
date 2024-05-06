@@ -1,0 +1,70 @@
+.caseStudiesContainer {
+	background-image: linear-gradient(to bottom, white 80%, rgba(0, 0, 0, 0) 80%);
+	height: 100vh;
+	padding: 7rem 11rem 7rem 11rem;
+}
+
+.caseStudiesTitle {
+	color: #7f7f7f;
+	font-weight: 600;
+	font-size: 0.65rem;
+}
+
+.caseStudiesImg {
+	width: 7rem;
+	height: auto;
+}
+
+.caseStudiesContainesCards {
+	padding: 0 1rem 0 1rem;
+	margin-top: 5rem;
+}
+
+.caseStudiesCard {
+	background-color: #3871ff;
+	border-radius: 0.3rem;
+}
+
+.caseStudiesTitleCard {
+	color: white;
+	font-weight: 600;
+	font-size: 1.6rem;
+	text-wrap: nowrap;
+}
+
+.caseStudiesParCard {
+	color: #d7e2ff;
+	font-size: 0.75rem;
+	font-weight: 500;
+	line-height: 1.7rem;
+}
+
+.caseStudiesButtonCard {
+	font-size: 0.8rem;
+	border-radius: 0.15rem;
+	height: 2.5rem;
+	width: 7rem;
+	border: 0.05rem solid white;
+	color: white;
+}
+
+.caseStudiesButtonCard:hover,
+.caseStudiesButtonCard:active {
+	background-color: white;
+	color: #3871ff;
+}
+
+.caseStudiesCardContainerImg {
+	position: relative;
+	height: 100%;
+	bottom: 0;
+	right: 0;
+}
+
+.caseStudiesCardImg {
+	height: 10rem;
+	width: auto;
+	position: relative;
+	bottom: 0;
+	right: 0;
+}

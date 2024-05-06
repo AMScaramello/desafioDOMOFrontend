@@ -1,0 +1,28 @@
+.technologyContainer {
+	background-color: #3871ff;
+	color: white;
+	height: 70vh;
+	padding-left: 11rem;
+	padding-right: 11rem;
+}
+
+.technologyContainerText {
+	padding-right: 16rem;
+}
+
+.technologyTitle {
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+.technologyPar {
+	color: #9bb8ff;
+	font-weight: 500;
+	font-size: 1.1rem;
+	line-height: 1.9rem;
+}
+
+.technologyImg {
+	height: 4rem;
+	width: auto;
+}

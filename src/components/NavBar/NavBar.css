@@ -1,0 +1,34 @@
+.navBarComponent {
+	width: 100vw;
+	padding-left: 11rem;
+	padding-right: 11rem;
+}
+
+.navBarComponent * {
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: white;
+}
+
+.navbar {
+	padding-left: 11rem;
+	padding-right: 11rem;
+}
+
+.navBarSection,
+.navBarSection:focus {
+	color: #9399a1;
+}
+
+.navBarSection:hover,
+.hireUsColor,
+.hireUsColor:focus,
+.navbar-brand:hover,
+.navbar-brand:focus {
+	color: white;
+}
+
+.hireUsIcon {
+	height: 0.7rem;
+	width: auto;
+}

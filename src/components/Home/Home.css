@@ -1,0 +1,42 @@
+.homeContainer {
+	padding-left: 11rem;
+	height: 100vh;
+}
+
+.homeTitle {
+	color: white;
+}
+
+.homePar {
+	color: #9399a1;
+	font-weight: 600;
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+}
+
+.homeButton1,
+.homeButton2 {
+	font-size: 0.8rem;
+	border-radius: 0.15rem;
+	height: 2.5rem;
+	width: 10rem;
+}
+
+.homeButton1 {
+	width: 8rem;
+	border: 0.001rem solid #9399a1;
+	color: #9399a1;
+}
+
+.homeButton1:hover,
+.homeButton2 {
+	background-color: #3871ff;
+}
+
+.homeImg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	padding: 0;
+}

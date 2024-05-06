@@ -1,0 +1,38 @@
+.aboutContainer {
+	color: white;
+	padding: 0 11rem 2rem 11rem;
+}
+
+.aboutTitle {
+	font-size: small;
+}
+
+.aboutPar {
+	font-size: small;
+	font-weight: 500;
+	padding-right: 15rem;
+	line-height: 1.5rem;
+	color: #9399a1;
+}
+
+.aboutIcons {
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0;
+}
+
+.aboutCategory {
+	font-size: x-small;
+	font-weight: 600;
+}
+
+.aboutSection,
+.aboutSection:focus {
+	color: #9399a1;
+	font-size: small;
+	font-weight: 500;
+}
+
+.aboutSection:hover {
+	color: white;
+}
