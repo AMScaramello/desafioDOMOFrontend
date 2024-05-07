@@ -4,7 +4,8 @@
 		rgba(0, 0, 0, 0) 80%,
 		#3871ff 80%
 	);
-	height: 100vh;
+	padding-left: 11rem;
+	padding-right: 11rem;
 }
 
 .servicesTitle {
@@ -25,12 +26,14 @@
 
 .servicesCardTitle {
 	font-size: 1rem;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 .servicesCardPar {
-	font-size: 0.8rem;
+	font-size: 0.75rem;
+	font-weight: 500;
 	line-height: 1.7rem;
+	color: #7f7f7f;
 }
 
 .servicesContainerImg {
@@ -46,4 +49,32 @@
 .sevicesImg {
 	height: 2rem;
 	width: auto;
+}
+
+@media (max-width: 1200px) {
+	.servicesContainer {
+		padding-left: 8rem;
+		padding-right: 8rem;
+	}
+}
+
+@media (max-width: 992px) {
+	.servicesContainer {
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.servicesContainer {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.servicesContainer {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }

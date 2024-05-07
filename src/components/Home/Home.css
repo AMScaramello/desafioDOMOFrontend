@@ -3,6 +3,19 @@
 	height: 100vh;
 }
 
+@media (max-width: 992px) {
+	.homeContainer {
+		padding-left: 2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.homeContainer {
+		height: auto;
+		padding: 2rem;
+	}
+}
+
 .homeTitle {
 	color: white;
 }
@@ -39,4 +52,10 @@
 	right: 0;
 	z-index: -1;
 	padding: 0;
+}
+
+@media (max-width: 768px) {
+	.homeImg {
+		display: none;
+	}
 }

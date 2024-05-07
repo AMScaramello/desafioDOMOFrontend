@@ -32,3 +32,55 @@
 	height: 0.7rem;
 	width: auto;
 }
+
+@media (max-width: 576px) {
+	.navBarComponent {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.navbar {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.navBarComponent {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.navbar {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar-toggler {
+		color: white;
+	}
+
+	.navbar-toggler-icon {
+		background-color: white;
+	}
+
+	.navbar-collapse {
+		background-color: #3871ff;
+	}
+
+	.navbar-nav {
+		width: 100%;
+	}
+
+	.navbar-nav .nav-item {
+		padding: 0.5rem 1rem;
+	}
+
+	.navbar-nav .nav-link {
+		color: white !important;
+		font-size: 1rem;
+		text-align: center;
+	}
+}

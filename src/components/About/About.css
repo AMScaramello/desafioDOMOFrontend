@@ -36,3 +36,23 @@
 .aboutSection:hover {
 	color: white;
 }
+
+@media (max-width: 576px) {
+	.aboutContainer {
+		padding: 0 1rem 2rem 1rem;
+		.aboutPar {
+			padding-right: 0;
+		}
+
+		.aboutIcons {
+			width: 0.8rem;
+			height: 0.8rem;
+		}
+	}
+
+	@media (min-width: 576px) and (max-width: 768px) {
+		.aboutContainer {
+			padding: 0 2rem 2rem 2rem;
+		}
+	}
+}

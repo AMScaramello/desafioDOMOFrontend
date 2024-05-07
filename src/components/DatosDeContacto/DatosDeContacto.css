@@ -34,3 +34,23 @@
 	height: 3rem;
 	width: auto;
 }
+
+@media (max-width: 576px) {
+	.ddcContainer {
+		padding: 3rem 1rem;
+	}
+
+	.ddcIcons {
+		height: 1.2rem;
+	}
+
+	.ddcIcons2 {
+		height: 2.5rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.ddcContainer {
+		padding: 4rem 2rem;
+	}
+}

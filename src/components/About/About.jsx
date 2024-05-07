@@ -1,25 +1,7 @@
-import TwitterIcon from "../../assets/About/TwitterIcon.png"
-import WebIcon from "../../assets/About/WebIcon.png"
-import FacebookIcon from "../../assets/About/FacebookIcon.png"
-import InstagramIcon from "../../assets/About/InstagramIcon.png"
+import { lists, icons } from "../../utils/About"
 import "./About.css"
 
 export const About = () => {
-	const lists = [
-		{
-			category: "SITEMAP",
-			sections: ["Home", "Technology", "Services", "About"],
-		},
-		{
-			category: "CASE STUDIES",
-			sections: ["Swiss Airlines", "Google", "Apple", "Nike"],
-		},
-		{
-			category: "CONTACT",
-			sections: ["Jobs", "Hire us"],
-		},
-	]
-
 	return (
 		<div className="row mb-2 aboutContainer" id="About">
 			<div className="col-6">
@@ -32,26 +14,13 @@ export const About = () => {
 					nulla.
 				</p>
 				<div className="row me-5">
-					<div className="col-1">
-						<a className="aboutIcons" href="#">
-							<img src={TwitterIcon} alt="" className="aboutIcons" />
-						</a>
-					</div>
-					<div className="col-1">
-						<a className="aboutIcons" href="#">
-							<img src={WebIcon} alt="" className="aboutIcons" />
-						</a>
-					</div>
-					<div className="col-1">
-						<a className="aboutIcons" href="#">
-							<img src={FacebookIcon} alt="" className="aboutIcons" />
-						</a>
-					</div>
-					<div className="col-1">
-						<a className="aboutIcons" href="#">
-							<img src={InstagramIcon} alt="" className="aboutIcons" />
-						</a>
-					</div>
+					{icons.map((icon) => (
+						<div className="col-1" key="">
+							<a className="aboutIcons" href="#">
+								<img src={icon} alt="" className="aboutIcons" />
+							</a>
+						</div>
+					))}
 				</div>
 			</div>
 			<div className="col-6 pt-2">
