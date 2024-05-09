@@ -11,11 +11,11 @@ export const DatosDeContacto = () => {
 	return (
 		<div className="row ddcContainer">
 			<h3 className="mb-3 ddcTitle">DATOS DE CONTACTO</h3>
-			<div className="col-4">
+			<div className="col-4 ddcCols">
 				<h4 className="ddcName">Agustin Scaramello</h4>
 				<h5 className="ddcSubname">FRONTEND DEVELOPER</h5>
 			</div>
-			<div className="col-4">
+			<div className="col-4 ddcCols">
 				<div>
 					<img src={MailIcon} alt="" className="me-2 ddcIcons" />
 					<a href="mailto:agusscaramello@gmail.com" className="ddcMailAndTel">
@@ -29,9 +29,9 @@ export const DatosDeContacto = () => {
 					</a>
 				</div>
 			</div>
-			<div className="col-4">
-				<div className="row">
-					<div className="col">
+			<div className="col-4 ddcCols">
+				<div className="row ">
+					<div className="col ddcContainerRedes">
 						<a
 							href="https://www.linkedin.com/in/agustin-scaramello/"
 							className=""
@@ -40,7 +40,7 @@ export const DatosDeContacto = () => {
 							<img src={LinkedinIcon} alt="" className="ddcIcons2" />
 						</a>
 					</div>
-					<div className="col">
+					<div className="col ddcContainerRedes">
 						<a
 							href="https://github.com/AMScaramello"
 							className=""
@@ -49,7 +49,7 @@ export const DatosDeContacto = () => {
 							<img src={GitHubIcon} alt="" className="ddcIcons2" />
 						</a>
 					</div>
-					<div className="col">
+					<div className="col ddcContainerRedes">
 						<a
 							href="https://agustinscaramello.vercel.app/"
 							className=""
@@ -58,7 +58,7 @@ export const DatosDeContacto = () => {
 							<img src={PortfolioIcon} alt="" className="ddcIcons2" />
 						</a>
 					</div>
-					<div className="col">
+					<div className="col ddcContainerRedes">
 						<a
 							href="https://www.instagram.com/agustinscaramello/"
 							className=""
@@ -67,7 +67,7 @@ export const DatosDeContacto = () => {
 							<img src={InstagramIcon} alt="" className="ddcIcons2" />
 						</a>
 					</div>
-					<div className="col">
+					<div className="col ddcContainerRedes">
 						<a
 							href="https://drive.google.com/file/d/1zNXbky4KXnUJ0BTL6pXC7-xUKerRo-ji/view?usp=sharing"
 							className=""

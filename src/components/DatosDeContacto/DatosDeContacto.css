@@ -35,22 +35,65 @@
 	width: auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1200px) {
+	.ddcIcons2 {
+		height: 2rem;
+		width: auto;
+	}
+}
+
+@media (max-width: 992px) {
 	.ddcContainer {
-		padding: 3rem 1rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.ddcName {
+		font-size: 1.2rem;
 	}
 
 	.ddcIcons {
 		height: 1.2rem;
+		width: auto;
 	}
 
 	.ddcIcons2 {
-		height: 2.5rem;
+		height: 1.8rem;
+		width: auto;
+	}
+
+	.ddcContainerRedes {
+		padding: 0 !important;
+	}
+
+	.ddcMailAndTel {
+		font-size: small;
 	}
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 576px) {
 	.ddcContainer {
-		padding: 4rem 2rem;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 1rem;
+		padding-top: 4rem;
+	}
+
+	.ddcCols {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	.ddcSubname {
+		margin: 0 !important;
+	}
+
+	.ddcIcons2 {
+		height: 1.7rem;
+		width: auto;
+	}
+
+	.ddcContainerRedes {
+		padding: 1rem !important;
 	}
 }

@@ -1,7 +1,7 @@
 .navBarComponent {
 	width: 100vw;
-	padding-left: 11rem;
-	padding-right: 11rem;
+	padding-left: 10.5rem;
+	padding-right: 10.5rem;
 }
 
 .navBarComponent * {
@@ -10,9 +10,9 @@
 	color: white;
 }
 
-.navbar {
-	padding-left: 11rem;
-	padding-right: 11rem;
+.hireUsIcon {
+	height: 0.7rem;
+	width: auto;
 }
 
 .navBarSection,
@@ -26,11 +26,6 @@
 .navbar-brand:hover,
 .navbar-brand:focus {
 	color: white;
-}
-
-.hireUsIcon {
-	height: 0.7rem;
-	width: auto;
 }
 
 @media (max-width: 576px) {
@@ -58,15 +53,12 @@
 }
 
 @media (max-width: 992px) {
+	.navBarComponent {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
 	.navbar-toggler {
-		color: white;
-	}
-
-	.navbar-toggler-icon {
-		background-color: white;
-	}
-
-	.navbar-collapse {
 		background-color: #3871ff;
 	}
 
@@ -81,6 +73,6 @@
 	.navbar-nav .nav-link {
 		color: white !important;
 		font-size: 1rem;
-		text-align: center;
+		text-align: end;
 	}
 }

@@ -8,15 +8,13 @@ export const Services = () => {
 				<h3 className="servicesTitle pb-2">Our Services</h3>
 				<p className="servicesPar">
 					We feel very strong about our skills when it comes to planning,
-					designing
-					<br />
-					and coding applications. Here is what we love to do!
+					designing and coding applications. Here is what we love to do!
 				</p>
 			</div>
 			<div className="pt-3">
-				<div className="row justify-content-md-center">
+				<div className="row justify-content-md-center servicesContainerCards">
 					{arrServices.map((service) => (
-						<div className="col-4 px-4" key="">
+						<div className="col-4 px-4 servicesContainerCard" key="">
 							<div className="card text-center align-items-center pt-5 pb-4 px-4">
 								<div className="servicesContainerImg">
 									<img src={service.icon} alt="..." className="sevicesImg" />

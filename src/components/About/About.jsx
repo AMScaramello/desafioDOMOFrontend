@@ -4,7 +4,7 @@ import "./About.css"
 export const About = () => {
 	return (
 		<div className="row mb-2 aboutContainer" id="About">
-			<div className="col-6">
+			<div className="col-6 aboutCols">
 				<a className="navbar-brand fw-bold aboutTitle" href="#">
 					coomplet labs
 				</a>
@@ -23,7 +23,7 @@ export const About = () => {
 					))}
 				</div>
 			</div>
-			<div className="col-6 pt-2">
+			<div className="col-6 pt-2 aboutCols">
 				<div className="row">
 					{lists.map((list) => (
 						<div className="col-4" key="">

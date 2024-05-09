@@ -4,14 +4,14 @@ import "./Home.css"
 export const Home = () => {
 	return (
 		<div className="row align-items-center homeContainer" id="Home">
-			<div className="col-6 align-self-center">
+			<div className="col-6 align-self-center homeSubContainer">
 				<h1 className="fw-bold mb-3 homeTitle">
-					We build beautiful and <br /> reliable web solutions
+					We build beautiful and reliable web solutions
 				</h1>
 				<p className="homePar mb-5">
-					We strongly believe that communication, trust and transparency <br />{" "}
-					are the essential elements of sucessful business relationship. <br />{" "}
-					Ready for the journey?
+					We strongly believe that communication, trust and transparency are the
+					essential elements of sucessful business relationship. Ready for the
+					journey?
 				</p>
 				<div>
 					<button

@@ -4,7 +4,7 @@ import "./Technology.css"
 export const Technology = () => {
 	return (
 		<div className="py-5 technologyContainer" id="Technology">
-			<div className="row align-items-center">
+			<div className="row align-items-center technologySubcontainer">
 				<div className="col-9 technologyContainerText">
 					<h3 className="technologyTitle pb-3">
 						We use cutting edge technology
