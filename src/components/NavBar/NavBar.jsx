@@ -25,27 +25,27 @@ export const NavBar = () => {
 				>
 					<ul className="navbar-nav">
 						<li className="nav-item mx-2">
-							<a className="nav-link navBarSection" href="#">
+							<a className="nav-link navBarSection" href="#Home">
 								Home
 							</a>
 						</li>
 						<li className="nav-item mx-2">
-							<a className="nav-link navBarSection" href="#">
+							<a className="nav-link navBarSection" href="#Services">
 								Services
 							</a>
 						</li>
 						<li className="nav-item mx-2">
-							<a className="nav-link navBarSection" href="#">
+							<a className="nav-link navBarSection" href="#Technology">
 								Technology
 							</a>
 						</li>
 						<li className="nav-item mx-2">
-							<a className="nav-link navBarSection" href="#">
+							<a className="nav-link navBarSection" href="#CaseStudies">
 								Case studies
 							</a>
 						</li>
 						<li className="nav-item mx-2">
-							<a className="nav-link navBarSection" href="#">
+							<a className="nav-link navBarSection" href="#About">
 								About
 							</a>
 						</li>
